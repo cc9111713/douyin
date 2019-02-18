@@ -1,0 +1,50 @@
+@import 'common.scss';
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: url(../img/1.jpg) no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height:pxTorem(44px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: pxTorem(18px);
+}
+section{
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+.font{
+    width: 75%;
+    margin-top: pxTorem(450px);
+    font-size: pxTorem(16px);
+}
+.asild{
+    width: 15%;
+    font-size: pxTorem(24px);
+    text-align: center;
+    margin-top: pxTorem(150px);
+    margin-left: pxTorem(20px);
+    img{
+        width: pxTorem(50px);
+        height: pxTorem(50px);
+        border-radius: 50%;
+    }
+    span{
+        font-size: pxTorem(12px)
+    }
+}
+footer{
+    width: 100%;
+    height: pxTorem(44px);
+    display: flex;
+    justify-content: space-around;
+    font-size: pxTorem(18px);
+}
